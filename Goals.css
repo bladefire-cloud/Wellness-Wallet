@@ -1,0 +1,18 @@
+.goals {
+  display: flex;
+  flex-direction: row;
+}
+
+.presentgoals {
+  float: left;
+  width: 50%;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.futuregoals {
+  width: 50%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}

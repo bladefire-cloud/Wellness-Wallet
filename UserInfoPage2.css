@@ -1,0 +1,154 @@
+.userinfo {
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap");
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.userinfo-header {
+  background: linear-gradient(
+    to right,
+    #282c34 0%,
+    #282c34 50%,
+    #61dafb 50%,
+    #61dafb 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+#loading-icon-1 {
+  position: absolute;
+  right: 1820px;
+  top: 20px;
+  width: 100px;
+  color: #61dafb;
+}
+
+#loading-icon-2 {
+  position: absolute;
+  right: 1780px;
+  top: 20px;
+  width: 100px;
+  color: #61dafb;
+}
+
+#loading-icon-3 {
+  position: absolute;
+  right: 1740px;
+  top: 20px;
+  width: 100px;
+  color: #61dafb;
+}
+
+#closeButton {
+  position: absolute;
+  left: 1820px;
+  top: 20px;
+  width: 100px;
+  color: #282c34;
+}
+
+#logo {
+  position: absolute;
+  right: 250px;
+  top: 120px;
+  width: 450px;
+  color: #282c34;
+}
+
+#quote-line-1 {
+  position: absolute;
+  right: 150px;
+  top: 435px;
+  width: 450px;
+  font-family: "smooch sans", sans-serif;
+  font-size: 50px;
+  color: #282c34;
+}
+
+#quote-line-2 {
+  position: absolute;
+  right: 150px;
+  top: 495px;
+  width: 450px;
+  font-family: "smooch sans", sans-serif;
+  font-size: 50px;
+  color: #282c34;
+}
+
+#quote-line-3 {
+  position: absolute;
+  right: 150px;
+  top: 555px;
+  width: 450px;
+  font-family: "smooch sans", sans-serif;
+  font-size: 50px;
+  color: #282c34;
+}
+
+#form-row-1 {
+  position: absolute;
+  left: 150px;
+  top: 200px;
+  width: 450px;
+  font-family: "smooch sans", sans-serif;
+  font-size: 25px;
+}
+
+#form-row-2 {
+  position: absolute;
+  left: 150px;
+  top: 300px;
+  width: 450px;
+  font-family: "smooch sans", sans-serif;
+  font-size: 25px;
+}
+
+#form-row-3 {
+  position: absolute;
+  left: 150px;
+  top: 400px;
+  width: 450px;
+  font-family: "smooch sans", sans-serif;
+  font-size: 25px;
+}
+
+#form-row-4 {
+  position: absolute;
+  left: 150px;
+  top: 500px;
+  width: 450px;
+  font-family: "smooch sans", sans-serif;
+  font-size: 25px;
+}
+
+#remember-me {
+  position: absolute;
+  left: 150px;
+  top: 610px;
+  width: 450px;
+  font-family: "smooch sans", sans-serif;
+  font-size: 18px;
+}
+
+#submit-button {
+  position: absolute;
+  left: 300px;
+  top: 670px;
+  width: 200px;
+  font-family: "smooch sans", sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
